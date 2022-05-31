@@ -39,28 +39,20 @@
 
 
 <script>
-// import RhTable from "@/components/RhTable/RhTable.vue";
-// import RhCard from "./components/RhCard/RhCard.vue";
-// import RhChip from "./components/RhChip/RhChip.vue";
-// import RhSelect from "./components/RhSelect/RhSelect.vue";
-// import RhSearchBar from "./components/RhSearchBar/RhSearchBar.vue";
-// import RhTextField from "./components/RhTextField/RhTextField.vue";
+
 
 import Column from "primevue/column";
 import DataTable from "primevue/datatable";
 import InputText from "primevue/inputtext";
 export default {
   components: {
-    // RhDashboardLayout,
+
     InputText,
-    // RhCard,
-    // RhTable,
-    // RhChip,
-    // RhTextField,
+
     Column,
     // RhSelect,
     DataTable,
-    // RhSearchBar,
+
   },
   data() {
     return {
